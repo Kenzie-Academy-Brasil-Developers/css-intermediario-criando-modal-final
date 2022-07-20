@@ -1,4 +1,4 @@
-const buttonsShowModal = document.querySelectorAll(".button-control-modal")
+const buttonsShowModal = document.querySelectorAll("[data-control-modal]")
 
 Array.from(buttonsShowModal).map((buttonShowModal)=>{
     buttonShowModal.addEventListener("click", ()=>{
