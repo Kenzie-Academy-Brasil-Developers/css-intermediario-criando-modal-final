@@ -23,7 +23,7 @@
   padding: 16px 8px;
 }
 
-.modal-close {
+.btn-modal-close {
   width: 40px;
   height: 40px;
   background-color: transparent;
@@ -34,6 +34,7 @@
 }
 
 .modal-body {
+  height: 200px;
   padding: 16px 8px;
 }
 

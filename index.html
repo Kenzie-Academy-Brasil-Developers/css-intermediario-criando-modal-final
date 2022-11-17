@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/global.css" />
+    <link rel="stylesheet" href="./src/styles/modal.css" />
+    <link rel="stylesheet" href="./src/styles/button.css" />
+    <title>Modal</title>
+  </head>
+  <body>
+    <button data-control-modal="modal-login" class="btn-modal-open">
+      Abrir Modal Login
+    </button>
+    <div class="modal-wrapper" id="modal-login">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">Login</h3>
+          <button class="btn-modal-close" data-control-modal="modal-login">
+            X
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- CONTEÚDO DO MODAL -->
+        </div>
+      </div>
+    </div>
+    <button data-control-modal="modal-cadastro" class="btn-modal-open">
+      Abrir Modal Cadastro
+    </button>
+    <div class="modal-wrapper" id="modal-cadastro">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">Cadastro</h3>
+          <button class="btn-modal-close" data-control-modal="modal-cadastro">
+            X
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- CONTEÚDO DO MODAL -->
+        </div>
+      </div>
+    </div>
+    <script src="./src/scripts/modal.js"></script>
+  </body>
+</html>
